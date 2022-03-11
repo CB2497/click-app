@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Click App</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+		<div class="view view-main view-init">
+
+			<!-- Menú Lateral -->
+			<section class="panel panel-left panel-cover">
+			
+				<div class="panel-info">
+					<span class="material-icons">face</span>
+					<h4>Mi Usuario</h4>
+				</div>
+				
+				<div class="list">
+				  <ul>
+					<li>
+					  <a href="/home/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">home</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Inicio</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/contenido.html" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">ballot</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Cursos</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/offers/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">sell</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Ofertas</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">groups</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Nuestro equipo</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">shopping_cart</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Mi carrito</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					</li>
+					<li>
+					  <a href="#" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">account_circle</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Mi Cuenta</div>
+						</div>
+					  </a>
+					</li>
+				  </ul>
+				</div>
+				
+			</section>
+			
+			
+			<section data-name="home" class="page">
+
+				<!-- Top Navbar -->
+				<nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<div class="left">
+						<a href="#" class="link"><span class="material-icons">search</span>
+						</a>
+					</div>
+					<div class="title">Click</div>
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel=".panel-left"><span class="material-icons">menu</span>
+						</a>
+					</div>
+				</div>
+				</nav>
+
+				
+
+				<section class="page-content">
+
+					<article id="promo" class="card">
+						<div class="card-content card-content-padding">
+							<div class="row">
+							
+								<article class="col">
+									<h4>Inscribete en uno de nuestros cursos</h4>
+									¡Aprende a ser cineasta!
+									<a href="contenido.html" class="button button-fill button-small">Ver Cursos</a>
+								</article>
+								
+								<article class="col">
+									<img src="img/productor.png" alt="promo" class="img-fluid">
+								</article>
+							
+							</div>
+						</div>
+					</article>
+					
+					<div class="row">
+						<article class="col">
+							<h2 class="block-title block-title-medium">Marcas</h2>
+						</article>
+						
+						<article class="col text-align-right">
+							<a href="#" class="block-title link text-small">Ver más</a>
+						</article>
+					</div>
+					
+					<article id="brands" class="block">
+						
+						<div class="row">
+							<article class="col">
+								<div class="card">						
+									<div class="card-content">
+										<img src="img/sony-01.jpg" class="img-fluid" alt="sony">
+									</div>
+								</div>
+							</article>
+							
+							<article class="col">
+								<div class="card">						
+									<div class="card-content">
+										<img src="img/canon-01.jpg" class="img-fluid" alt="canon">
+									</div>
+								</div>
+							</article>
+							
+							<article class="col">
+								<div class="card">						
+									<div class="card-content">
+										<img src="img/red-01.jpg" class="img-fluid" alt="red">
+									</div>
+								</div>
+							</article>
+						
+						</div>
+						
+						
+						
+					</article>
+					
+					
+					<div class="row">
+						<article class="col">
+							<h2 class="block-title block-title-medium">Cursos en oferta</h2>
+						</article>
+						
+						<article class="col text-align-right">
+							<a href="#" class="block-title link text-small">Ver más</a>
+						</article>
+					</div>
+					
+					<article id="offers" class="block">
+						
+						<div class="row">
+							<article class="col">
+								<div class="card bg-guion">						
+									<div class="card-content">
+										Guion Cinematográfico
+										<h4>15%</h4>
+									</div>
+								</div>
+							</article>
+							
+							<article class="col">
+								<div class="card bg-camara">						
+									<div class="card-content">
+										Curso de cámaras
+										<h4>5%</h4>
+									</div>
+								</div>
+							</article>
+							
+						
+						</div>
+					</article>
+				</section>
+
+				
+				
+				
+			</section> <!-- /page-content-->
+			
+			<!-- Bottom Navbar -->
+            <nav class="toolbar toolbar-bottom">
+              <div class="toolbar-inner">
+                <a href="#" class="link">
+                  <span class="material-icons">home</span>					 
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">favorite_border</span>					  
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">notifications_none</span>					  
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">shopping_cart</span>					  
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">person_outline</span>					  
+                </a>
+              </div>
+            </nav>
+			
+		</div><!-- /view-->
+	</div><!-- /app -->
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
