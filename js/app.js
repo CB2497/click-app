@@ -61,6 +61,11 @@ var app = new Framework7({
     	name: 'camaras',
   		},
 		
+		{
+		path: '/confirm/',
+    	url: 'confirm.html',
+    	name: 'confirm',
+  		},
 		
 		
 		
