@@ -18,7 +18,12 @@ var app = new Framework7({
     	url: 'index.html',
     	name: 'home',
   		},
-	
+		
+		{
+		path: '/cursos/',
+    	url: 'cursos.html',
+    	name: 'cursos',
+  		},
 		
 		{
 		path: '/contenido/',
@@ -27,10 +32,17 @@ var app = new Framework7({
   		},
 		
 		{
-		path: '/info/',
-    	url: 'info.html',
-    	name: 'info',
+		path: '/guion/',
+    	url: 'guion.html',
+    	name: 'guion',
   		},
+		
+		{
+		path: '/direccion/',
+    	url: 'direccion.html',
+    	name: 'direccion',
+  		},
+		
 		
 		
 		
