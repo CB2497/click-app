@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 :root{
-	--f7-theme-color:#7C0101;
-	--f7-navbar-bg-color: #7C0101; /*navbar*/
+	--f7-theme-color:#1B1B3A|;
+	--f7-navbar-bg-color: #000000; /*navbar*/
 	--f7-navbar-text-color:#fff;
 	--f7-bars-bg-color:#fff;/*toolbar*/
 	--f7-block-margin-vertical:20px;
 	--f7-card-footer-border-color:transparent; 
-	--color-oscuro:#7C899F;
+	--color-oscuro:#000;
 	--color-gris:#E6E8EA;
 	--color-verde:#4BB889;
 	--color-negro:#000;
 }
 body{
 	font-family: 'Montserrat', sans-serif;
-	color: var(--color-oscuro);
+	color: #fff;
+	background-color: #000;
 }
 .navbar a{
 	color: #fff !important;
@@ -22,8 +23,13 @@ nav.toolbar a,
 nav.tabbar-label{
 	color: var(--color-negro);
 }
+
+.panel{
+	color: #fff;
+}
 .panel-left{
-	background-color: #f2f2f2;
+	background-color: #7C0002;
+	color: #fff;
 }
 .panel-left .list{
 	margin-top: 0;
@@ -50,6 +56,11 @@ nav.tabbar-label{
 h1,h2,h3,h4,h5,h6{
 	margin: 5px 0;
 }
+
+.page-content p{
+	color: #000;
+}
+
 .block-title-medium{
 	margin-top: 12px;
 	font-size: 22px;
@@ -78,12 +89,12 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-.bg-guion{
-	background-image: url("../img/script.png");
+.bg-zara{
+	background-image: url("../img/kids-basketball.jpg");
 	background-size: cover;
 }
-.bg-camara{
-	background-image: url("../img/camara.jpg");
+.bg-nike{
+	background-image: url("../img/kids-running.jpg");
 	background-size: cover;
 }
 
@@ -106,9 +117,128 @@ h1,h2,h3,h4,h5,h6{
 	margin-top: 0;
 }
 
+.list-products .item-media{
+	max-width: 100px;
+}
+
+.list-products li{
+	box-shadow: 0px 0px 10px 0px #eee;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+.list-products .item-title{
+	color: var(--color-negro);
+	font-weight: 600;
+}
+.list-products .item-subtitle{
+	color: #888;
+}
+.list-products h4{
+	color: var(--f7-theme-color);
+	font-size: 20px;
+	font-weight: 600;
+}
+.list-products span{
+	color: var(--color-negro);
+}
+.list-products h6{
+	background-color: #28a169;
+	display: inline;
+	padding: 3px 10px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.list .item-inner::after,
+.list ul::before,
+.list ul::after{
+	background-color: transparent;
+}
 
 
 
+.login-screen .page{
+	background-image: url("../img/bg.png");
+	color: #fff;
+}
+.login-screen .page-content{
+	padding: 15px;
+	background-color: transparent;
+	margin-top: 15% !important;
+}
+.login-screen form{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 30px 15px;
+	box-shadow: 0px 0px 15px 0px #7C899F;
+	color: #fff;
+}
+.login-screen .login-screen-title{
+	color: #fff;
+	font-size: 34px;
+}
+
+.login-screen{
+	color: #fff;
+}
+
+.button{
+	background-color: #7C0002;
+}
+.item-content{
+	color: #000;
+}
+
+.precio{
+	color: var(--f7-theme-color);
+	font-size: 22px;
+	font-weight: 600;
+}
+.review{
+	color: #818181;
+	font-size: 12px;
+	margin-top: 0;
+}
+.review span{
+	font-size: 12px;
+	color: #fcc00d;
+}
+.text-info{
+	font-size: 13px;
+}
+hr{
+	border: 1px solid #eee;
+}
+.button span{
+	vertical-align: middle;
+}
+
+#confirm{
+	margin-top: 25%;
+}
+.info-confirm{
+	background-color: #f2f2f2;
+	padding: 30px 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+#confirm h2{
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#confirm .icon{
+	font-size: 60px;
+	color: #0e912c;
+}
+#confirm h3{
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 40px;
+}
+#confirm h3 span{
+	font-weight: 800;
+}
 
 
 
