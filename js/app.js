@@ -43,8 +43,23 @@ var app = new Framework7({
     	name: 'direccion',
   		},
 		
+		{
+		path: '/produccion/',
+    	url: 'produccion.html',
+    	name: 'produccion',
+  		},
 		
+		{
+		path: '/sonido/',
+    	url: 'sonido.html',
+    	name: 'sonido',
+  		},
 		
+		{
+		path: '/camaras/',
+    	url: 'camaras.html',
+    	name: 'camaras',
+  		},
 		
 		
 		
